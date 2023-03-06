@@ -63,19 +63,19 @@
                 	<div class="loginbox">
                         <div class="login-right">
 							<div class="login-right-wrap">
-								<h1>Login</h1>
+								<h1 id=#heading >Login</h1>
 								<p class="account-subtitle">Access to our dashboard</p>
 								<p style="color:red;"><?php echo $error; ?></p>
 								<!-- Form -->
 								<form method="post">
 									<div class="form-group">
-										<input class="form-control" name="user" type="text" placeholder="User Name">
+										<input class="form-control" id="username" name="user" type="text" placeholder="User Name">
 									</div>
 									<div class="form-group">
-										<input class="form-control" type="password" name="pass" placeholder="Password">
+										<input class="form-control" id="password" type="password" name="pass" placeholder="Password">
 									</div>
 									<div class="form-group">
-										<button class="btn btn-primary btn-block" name="login" type="submit">Login</button>
+										<button class="btn btn-primary btn-block" id="login" name="login" type="submit">Login</button>
 									</div>
 								</form>
 								

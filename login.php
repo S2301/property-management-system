@@ -118,13 +118,13 @@ if(isset($_REQUEST['login']))
 								<!-- Form -->
 								<form method="post">
 									<div class="form-group">
-										<input type="email"  name="email" class="form-control" placeholder="Your Email*">
+										<input type="email"  name="email" id ="email" class="form-control" placeholder="Your Email*">
 									</div>
 									<div class="form-group">
-										<input type="password" name="pass"  class="form-control" placeholder="Your Password">
+										<input type="password" name="pass"  id = "pass" class="form-control" placeholder="Your Password">
 									</div>
 									
-										<button class="btn btn-primary" name="login" value="Login" type="submit">Login</button>
+										<button class="btn btn-primary" id = "btn" name="login" value="Login" type="submit">Login</button>
 									
 								</form>
 								

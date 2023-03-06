@@ -56,7 +56,7 @@ if(!isset($_SESSION['auser']))
 					<div class="page-header">
 						<div class="row">
 							<div class="col-sm-12">
-								<h3 class="page-title">Welcome Admin!</h3>
+								<h3 class="page-title" id=#welcome>Welcome Admin!</h3>
 								<p></p>
 								<ul class="breadcrumb">
 									<li class="breadcrumb-item active">Dashboard</li>
@@ -101,7 +101,7 @@ if(!isset($_SESSION['auser']))
 										
 										<h3>123</h3>
 										
-										<h6 class="text-muted">Request Blood</h6>
+										<!--<h6 class="text-muted">Request Blood</h6>
 										<div class="progress progress-sm">
 											<div class="progress-bar bg-success w-50"></div>
 										</div>
@@ -141,7 +141,7 @@ if(!isset($_SESSION['auser']))
 									</div>
 									<div class="dash-widget-info">
 										
-										<h3>342</h3>
+										<h3>342</h3>-->
 										
 										<h6 class="text-muted">Contact Message</h6>
 										<div class="progress progress-sm">
