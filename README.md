@@ -18,12 +18,3 @@ It can easily be used to manage two different group of users with different perm
     MySQL >= 5.7;
 
 
-# Installation
-
-    Modify config.php file
-
-    $con = mysqli_connect("server_name","user_name","password","Database_name");
-
-Import the Database in Your Server like Xampp, Wamp
-
-Database Name -: developer
